@@ -1,0 +1,17 @@
+[
+  "tests/test_agent_loop.py::test_agent_loop_executes_tool_and_returns_final_answer",
+  "tests/test_agent_loop.py::test_agent_loop_recovers_from_tool_error",
+  "tests/test_agent_loop.py::test_agent_loop_reuses_history_across_turns",
+  "tests/test_agent_loop.py::test_agent_loop_stops_at_iteration_cap",
+  "tests/test_api_chat.py::test_chat_endpoint_rejects_empty_message",
+  "tests/test_api_chat.py::test_chat_endpoint_returns_answer_and_tool_trace",
+  "tests/test_api_chat.py::test_health_check",
+  "tests/test_tools_notes.py::test_get_notes_empty_by_default",
+  "tests/test_tools_notes.py::test_get_notes_orders_most_recent_first",
+  "tests/test_tools_notes.py::test_save_and_get_notes_roundtrip",
+  "tests/test_tools_notes.py::test_save_note_rejects_empty_content",
+  "tests/test_tools_weather.py::test_get_weather_propagates_http_errors",
+  "tests/test_tools_weather.py::test_get_weather_returns_readable_summary",
+  "tests/test_tools_weather.py::test_get_weather_unknown_location_raises_value_error",
+  "tests/test_tools_weather.py::test_get_weather_unmapped_code_falls_back_to_raw_code"
+]
