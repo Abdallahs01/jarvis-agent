@@ -21,6 +21,9 @@ class Settings(BaseSettings):
     # refuse to start rather than accidentally run unprotected.
     api_key: str
 
+    # Tavily (free tier, no card) -- used by the web_search tool.
+    tavily_api_key: str
+
     model_config = SettingsConfigDict(env_file=".env", extra="ignore")
 
 

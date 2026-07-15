@@ -25,6 +25,7 @@ def _test_settings(monkeypatch, tmp_path):
     """
     monkeypatch.setenv("ANTHROPIC_API_KEY", "test-key")
     monkeypatch.setenv("API_KEY", TEST_API_KEY)
+    monkeypatch.setenv("TAVILY_API_KEY", "test-tavily-key")
     monkeypatch.setenv("DATABASE_PATH", str(tmp_path / "test.db"))
 
     # Strip any ambient proxy env vars from the host machine. Tests should
